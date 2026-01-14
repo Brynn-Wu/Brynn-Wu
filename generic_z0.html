@@ -46,41 +46,27 @@
 
 						<!-- Featured Post --> <!-- 特色文章注释 -->
 							<article class="post featured"> <!-- 特色文章元素 -->
-								<p style="text-indent: 2em"><b>Data：</b> Landsat 8 satellite image<br>
-									<p style="text-indent: 2em"><b>Tools：</b> ENVI<br>
-									<p style="text-indent: 2em"><b>Methodology Note:</b> In fact, Fractional Vegetation Cover (FVC) inversion is a prerequisite for Land Surface Temperature (LST) retrieval,  since FVC serves as a key input for estimating land surface emissivity.
+								<header class="major"> <!-- 主要头部 -->
+									<h2><a>Cross-modal Sentinel-2 Image Retrieval with Global Imagery Embeddings </a></h2> <!-- 标题内容 -->
+									</header> <!-- 结束头部 -->
+									<p style="text-indent: 2em">Recent advancements in Earth embeddings have enabled efficient analysis of geospatial data. EarthEmbeddingExplorer is an open-source web application that democratizes access to Earth embeddings by integrating multiple state-of-the-art models, including SatCLIP, FarSLIP, and SigLIP, to support cross-modal retrieval of Sentinel-2 imagery through text, image, and geographic location queries.<br>
+									<p style="text-indent: 2em">The application leverages the MajorTOM Core-S2L2A dataset, with approximately 250,000 pre-computed embeddings per model based on uniform spatial sampling, providing representative global coverage of 1.2% of Earth's land surface. All models and datasets are hosted on open-source frameworks (ModelScope and Hugging Face) to ensure accessibility.The interface enables intuitive visualization of geographical distribution, rendering top-match thumbnails, and exporting metadata. 
+									The web applications are accessible at <a href="https://huggingface.co/spaces/ML4Sustain/EarthExplorer" target="_blank">Hugging Face Space</a>.<br>
 
 									</p> <!-- 结束摘要 -->
 
-									<hr>
-									<div style="height: 3rem;"></div>
-
-
-								<header class="major"> <!-- 主要头部 -->
-									<h2><a>Fractional Vegetation Cover (FVC) Inversion </a></h2> <!-- 标题内容 -->
-									</header> <!-- 结束头部 -->
-
-									<a href="images/2Dongguan.jpg" class="image main"><img src="images/2Dongguan.jpg" alt="" style="width: 70%; display: block; margin: 0 auto;" class="image-viewer" /></a> <!-- 主图片链接 -->
-									<p style="text-align: center; margin-top: -3rem; font-size: 0.9rem; color: #666;">Dongguan City, Guangdong province, China</p>
-
-									
-									<hr>
-									<div style="height: 3rem;"></div>
-
-
 								
-								<header class="major"> <!-- 主要头部 -->
-									<h2><a>Land Surface Temperature (LST) Inversion </a></h2> <!-- 标题内容 -->
-									</header> <!-- 结束头部 -->
-									
-
-									<a href="images/2LST.jpg" class="image main"><img src="images/2LST.jpg" alt="" style="width: 50%; display: block; margin: 0 auto;" class="image-viewer" /></a> <!-- 主图片链接 -->
-									<p style="text-align: center; margin-top: -3rem; margin-bottom: 5rem; font-size: 0.9rem; color: #666;">Guangzhou City, Guangdong province, China</p>
+								<!-- Two side-by-side images -->
+								<div class="two-images-container">
+									<div class="image-container">
+										<a class="image fit"><img src="images/Text_Search_Rainforest.png" alt="" class="image-viewer" /></a>
+									</div>
+									<div class="image-container">
+										<a class="image fit"><img src="album/Model.jpg" alt="" class="image-viewer" /></a>
+									</div>
+								</div>
 								
-							
-
-
-							<ul class="actions special"> <!-- 特殊动作列表 -->
+								<ul class="actions special"> <!-- 特殊动作列表 -->
 									<li><a href="generic.html" class="button large">Back</a></li> <!-- 阅读全文按钮 -->
 								</ul> <!-- 结束动作列表 -->
 							</article> <!-- 结束特色文章 -->
